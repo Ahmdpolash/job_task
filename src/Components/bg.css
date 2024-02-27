@@ -1,0 +1,50 @@
+.bg {
+  background: rgb(8, 41, 41);
+  background: linear-gradient(
+    90deg,
+    rgba(8, 41, 41, 1) 0%,
+    rgba(10, 13, 10, 1) 35%,
+    rgba(35, 50, 21, 1) 100%
+  );
+}
+/* 
+.bg {
+  background-image: url(../../public/gradient.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+} */
+
+/* .bg {
+  background: rgb(8, 42, 42);
+  background: linear-gradient(
+    90deg,
+    rgba(8, 42, 42, 1) 8%,
+    rgba(35, 50, 20, 1) 46%,
+    rgba(9, 11, 9, 1) 92%
+  );
+} */
+
+@media screen and(max-width : 1920px) {
+  .large {
+    padding: 0 220px;
+  }
+}
+
+.bgColor:hover {
+  background-image: url("https://i.ibb.co/wh4jN25/Screenshot-6.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  
+}
+
+.bgColors:hover {
+  transition: all;
+  background: rgb(42, 122, 122);
+  background: linear-gradient(
+    90deg,
+    rgba(42, 122, 122, 1) 0%,
+    rgba(32, 32, 32, 1) 35%,
+    rgba(87, 121, 56, 1) 100%
+  );
+}
