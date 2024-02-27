@@ -13,7 +13,7 @@ const Provide = () => {
 
   return (
     <div className="">
-      <Container>
+      <div className="px-32 py-5">
         <h1 className="text-white  text-[18px] lg:text-3xl 2xl:tet-3xl mb-6 my-5">
           What We <span>Provide</span>
         </h1>
@@ -23,7 +23,7 @@ const Provide = () => {
           {[1, 2, 3].map((card, index) => (
             <div
               key={index}
-              className="border bgColors hover:duration-700 rounded-md px-14 py-4 "
+              className="border-2 rounded-md px-14 py-6 gradient-border hover:duration-700"
             >
               <img
                 className="w-ful h-[190px] mx-auto"
@@ -32,7 +32,9 @@ const Provide = () => {
               />
 
               <div className="mx-auto text-white text-center py-3">
-                <h3 className="text-2xl font-semibold mb-3 space-y-4">Branding</h3>
+                <h3 className="text-2xl font-semibold mb-3 space-y-4">
+                  Branding
+                </h3>
                 <p className="text-[15px] font-normal">
                   Knowing the state of your current cybersecurity posture as
                   well as executing on continued
@@ -44,7 +46,7 @@ const Provide = () => {
             </div>
           ))}
         </div>
-      </Container>
+      </div>
     </div>
   );
 };

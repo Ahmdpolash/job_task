@@ -30,12 +30,18 @@
   }
 }
 
+.gradient-border {
+  /* Use gradient for border color */
+  background-image: linear-gradient(
+    "to top, #11dfd7 50%, #486E2A 50%"
+  );
+}
+
 .bgColor:hover {
   background-image: url("https://i.ibb.co/wh4jN25/Screenshot-6.png");
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
-  
 }
 
 .bgColors:hover {
