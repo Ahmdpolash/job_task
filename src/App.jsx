@@ -8,6 +8,7 @@ import Service from "./Components/Service/Service";
 import Works from "./Components/Works/Works";
 import Brand from "./Components/Brand/Brand";
 import Team from "./Components/Team/Team";
+import Footer from "./Components/Footer/Footer";
 function App() {
   return (
     <>
@@ -24,6 +25,7 @@ function App() {
           <Works />
           <Brand />
           <Team />
+          <Footer />
         </div>
       </div>
     </>
