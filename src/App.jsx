@@ -4,6 +4,9 @@ import "../src/Components/bg.css";
 import Provide from "./Components/Provide/Provide";
 import About from "./Components/About/About";
 import Client from "./Components/Client/Client";
+import Service from "./Components/Service/Service";
+import Works from "./Components/Works/Works";
+import Brand from "./Components/Brand/Brand";
 function App() {
   return (
     <>
@@ -16,6 +19,9 @@ function App() {
           <Provide />
           <About />
           <Client />
+          <Service />
+          <Works />
+          <Brand />
         </div>
       </div>
     </>

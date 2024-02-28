@@ -14,8 +14,8 @@ const Provide = () => {
   return (
     <div className="">
       <div className="px-32 py-5">
-        <h1 className="text-white  text-[18px] lg:text-3xl 2xl:tet-3xl mb-6 my-5">
-          What We <span>Provide</span>
+        <h1 className="text-white font-semibold text-[19px] lg:text-[37px]  mb-6 my-5">
+          What We <span className="gradient font-semibold">Provide</span>
         </h1>
 
         {/* Provide Box  start here*/}

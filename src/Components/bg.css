@@ -24,17 +24,9 @@
   );
 } */
 
-@media screen and(max-width : 1920px) {
-  .large {
-    padding: 0 220px;
-  }
-}
-
 .gradient-border {
   /* Use gradient for border color */
-  background-image: linear-gradient(
-    "to top, #11dfd7 50%, #486E2A 50%"
-  );
+  background-image: linear-gradient("to top, #11dfd7 50%, #486E2A 50%");
 }
 
 .bgColor:hover {
@@ -43,8 +35,16 @@
   background-size: auto;
   background-position: center;
 }
+.background:hover {
+  background-image: url("../assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
 .bgColors:hover {
+  transition-duration: 5s;
+  transition: ease-in-out;
   transition: all;
   background: rgb(42, 122, 122);
   background: linear-gradient(
@@ -53,4 +53,18 @@
     rgba(32, 32, 32, 1) 35%,
     rgba(87, 121, 56, 1) 100%
   );
+}
+
+.gradient {
+  background-image: linear-gradient(to right, #09e5e5 0%, #8efa6d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn {
+  border: 2px solid;
+  border-image: linear-gradient(to right, #09e5e5, #8efa6d) 1;
+  background-color: transparent;
+  padding: 7px 15px;
+  cursor: pointer;
 }
