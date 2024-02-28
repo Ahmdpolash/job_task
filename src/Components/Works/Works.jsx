@@ -149,6 +149,17 @@ const Works = () => {
             </div>
           )}
         </div>
+
+        <div className="mx-auto mt-7 space-y-3 text-center text-white">
+          <h3 className="text-2xl font-semibold">branding</h3>
+          <p className="max-w-[580px] mx-auto font-normal text-slate-200">
+            Our team of experienced photographers can help you capture the
+            perfect shots for your business or personal project. Whether you
+            need product photography, event coverage, or portrait sessions, we
+            have the skills and equipment to deliver stunning images that tell
+            your story.
+          </p>
+        </div>
       </div>
     </div>
   );

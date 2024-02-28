@@ -7,6 +7,7 @@ import Client from "./Components/Client/Client";
 import Service from "./Components/Service/Service";
 import Works from "./Components/Works/Works";
 import Brand from "./Components/Brand/Brand";
+import Team from "./Components/Team/Team";
 function App() {
   return (
     <>
@@ -22,6 +23,7 @@ function App() {
           <Service />
           <Works />
           <Brand />
+          <Team />
         </div>
       </div>
     </>
