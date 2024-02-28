@@ -7,7 +7,7 @@ import "../bg.css";
 
 const Service = () => {
   return (
-    <div>
+    <div id="service">
       <div className="px-4 lg:px-32 py-5 mt-6">
         <h1 className="text-white font-semibold text-[19px] lg:text-[37px] mb-6 my-5">
           All <span className="gradient font-bold">Services</span>

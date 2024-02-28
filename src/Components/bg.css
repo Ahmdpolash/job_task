@@ -61,6 +61,11 @@
   -webkit-text-fill-color: transparent;
 }
 
+.bannerBtn {
+  background: #25e9cb;
+  background: linear-gradient(to right, #25e9cb 0%, #91fc6d 100%);
+}
+
 .btn {
   border: 2px solid;
   border-image: linear-gradient(to right, #09e5e5, #8efa6d) 1;
@@ -68,6 +73,21 @@
   padding: 7px 15px;
   cursor: pointer;
 }
+
+.provideCard:hover {
+  background-image: url("https://i.ibb.co/gVKMfpd/Group-169.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cardBorder {
+  border: 1px solid;
+  border-image: linear-gradient(to right, #09e5e5, #8efa6d) 1;
+  background-color: transparent;
+
+  cursor: pointer;
+}
+
 .bgGradient {
   background-image: linear-gradient(
     to bottom,

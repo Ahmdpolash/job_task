@@ -16,7 +16,7 @@ const Works = () => {
   const [tab, setTab] = useState("All");
 
   return (
-    <div>
+    <div id="work">
       <div className="px-4 lg:px-32 py-5 mt-6">
         <h1 className="text-white font-semibold text-[19px] lg:text-3xl 2xl:tet-3xl mb-6 my-5">
           Our <span className="gradient font-bold">Work</span>

@@ -6,6 +6,7 @@ import { GoArrowUpRight } from "react-icons/go";
 
 import logo from "../../../public/Logo/Logo.png";
 import Container from "../../Shared/Container";
+import "../bg.css";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -16,19 +17,19 @@ const Navbar = () => {
 
   const navList = (
     <>
-      <a to="/" className="lg:ml-4">
+      <a href="/" className="lg:ml-4 gradient border-b border-teal-400">
         Home
       </a>
-      <a to="/about" className="lg:ml-4">
+      <a href="#about" className="lg:ml-4">
         About Us
       </a>
-      <a to="/contact" className="lg:ml-4">
+      <a href="#service" className="lg:ml-4">
         Services
       </a>
-      <a to="/services" className="lg:ml-4">
+      <a href="#work" className="lg:ml-4">
         Our Work
       </a>
-      <a to="/services" className="lg:ml-4">
+      <a href="#education" className="lg:ml-4">
         Education
       </a>
     </>
@@ -36,15 +37,16 @@ const Navbar = () => {
 
   return (
     <Container>
-      <div className="flex text-white cursor-pointer justify-between items-center">
-        
+      <div className="flex text-white w-full z-[9999] cursor-pointer justify-between items-center">
         <div className="logo 2xl:h-[40px] 2xl:w-[195] h-[35px] w-[170px]">
           <img className="h-full w-full" src={logo} alt="logo" />
         </div>
 
         {/* Desktop menu */}
-        <div className="hidden lg:block">
-          <ul className="lg:flex text-[18px] 2xl:text-[19px] lg:gap-4">{navList}</ul>
+        <div className="hidden  lg:block">
+          <ul className="lg:flex text-[18px] 2xl:text-[19px] lg:gap-4">
+            {navList}
+          </ul>
         </div>
 
         {/* Mobile menu */}
@@ -63,8 +65,8 @@ const Navbar = () => {
           <ul className="flex  flex-col p-5 gap-5 text-[18px]">{navList}</ul>
         </div>
 
-        <div className="flex items-center">
-          <button className="hidden  lg:flex items-center gap-2 border px-6 py-[6px] rounded-md  lg:ml-4 text-[#09E5E5]">
+        <div className=" items-center">
+          <button className="hidden btn gradient text-[18px] font-semibold lg:flex items-center gap-2 border px-5 py-[5px] rounded-md  lg:ml-4 text-[#09E5E5]">
             Hire Us
             <span>
               <GoArrowUpRight />
@@ -76,6 +78,8 @@ const Navbar = () => {
             onClick={toggleMenu}
           />
         </div>
+
+
       </div>
     </Container>
   );

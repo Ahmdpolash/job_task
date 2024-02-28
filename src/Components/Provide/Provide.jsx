@@ -23,7 +23,7 @@ const Provide = () => {
           {[1, 2, 3].map((card, index) => (
             <div
               key={index}
-              className="border-2 rounded-md px-14 py-6 gradient-border hover:duration-700"
+              className=" cardBorder provideCard  px-14 py-6 gradient-borer hover:duration-700"
             >
               <img
                 className="w-ful h-[190px] mx-auto"
