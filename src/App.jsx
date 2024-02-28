@@ -9,6 +9,7 @@ import Works from "./Components/Works/Works";
 import Brand from "./Components/Brand/Brand";
 import Team from "./Components/Team/Team";
 import Footer from "./Components/Footer/Footer";
+import Testimonials from "./Components/Testimonials/Testimonials";
 function App() {
   return (
     <>
@@ -23,6 +24,7 @@ function App() {
           <Client />
           <Service />
           <Works />
+          <Testimonials />
           <Brand />
           <Team />
           <Footer />

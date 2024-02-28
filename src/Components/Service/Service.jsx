@@ -13,8 +13,12 @@ const Service = () => {
           All <span className="gradient font-bold">Services</span>
         </h1>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-
+        <div
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
+        >
           <div className="border border-slate-600 shadow-md  w-full lg:h-[270px] flex items-center justify-center bg-[#2C2B2B]  rounded-md background">
             <div className="p-3">
               <div className="h-11 w-11 mx-auto mb-3 rounded-full bg-white">

@@ -5,23 +5,35 @@ import { FaAnglesRight } from "react-icons/fa6";
 import img1 from "../../assets/provide1.png";
 import img2 from "../../assets/provide2.png";
 import img3 from "../../assets/provide3.png";
-
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init();
 import "../bg.css";
 
 const Provide = () => {
   const images = [img1, img2, img3];
 
   return (
-    <div className="">
+    <div className="overflow-hidden">
       <div className="px-32 py-5">
-        <h1 className="text-white font-semibold text-[19px] lg:text-[37px]  mb-6 my-5">
-          What We <span className="gradient font-semibold">Provide</span>
-        </h1>
+        <div
+          data-aos="zoom-in-down"
+          data-aos-duration="500"
+         
+        >
+          <h1 className="text-white font-semibold text-[19px] lg:text-[37px]  mb-6 my-5">
+            What We <span className="gradient font-semibold">Provide</span>
+          </h1>
+        </div>
 
         {/* Provide Box  start here*/}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {[1, 2, 3].map((card, index) => (
             <div
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
               key={index}
               className=" cardBorder provideCard  px-14 py-6 gradient-borer hover:duration-700"
             >

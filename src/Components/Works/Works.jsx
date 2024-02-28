@@ -23,8 +23,8 @@ const Works = () => {
         </h1>
 
         <div className="flex justify-between items-center flex-wrap">
-          <div className="pb-3">
-            <ul className="flex flex-wrap gap-5 items-center">
+          <div className="mb-3">
+            <ul className="flex flex-wrap gap-5 mb-3 items-center">
               <li
                 className={`${
                   tab === "All"
@@ -77,14 +77,19 @@ const Works = () => {
               </li>
             </ul>
           </div>
-          <div>
+          <div className="pb-3">
             <button className="border btn gradient font-semibold ">
               See All Works
             </button>
           </div>
         </div>
 
-        <div className="">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          className=""
+        >
           {tab === "All" && (
             <Coverflow
               width="960"

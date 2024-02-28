@@ -1,5 +1,14 @@
 import React from "react";
 import '../bg.css'
+import { Swiper, SwiperSlide } from "swiper/react";
+import "../bg.css";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import { FaBehance } from "react-icons/fa";
+
+// import required modules
+import { Pagination } from "swiper/modules";
 
 const Client = () => {
   return (

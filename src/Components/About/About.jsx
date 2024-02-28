@@ -3,18 +3,27 @@ import Container from "../../Shared/Container";
 import "../bg.css";
 const About = () => {
   return (
-    <div id="about" className="mt-10">
+    <div id="about" className="mt-10 overflow-hidden">
       <Container>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 ">
-          <div>
+          <div
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
             <img
-              className="h-[400px] w-[650px]"
+              className="lg:h-[400px] w-full lg:w-[690px]"
               src="https://i.ibb.co/6vjFDh9/Rectangle-101-1.png"
               alt=""
             />
           </div>
 
-          <div className="text-white space-y-4">
+          <div
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            className="text-white space-y-4"
+          >
             <h3 className="text-4xl font-semibold">
               <span className="gradient">About</span> Us
             </h3>
@@ -108,9 +117,7 @@ const About = () => {
                         src="https://i.ibb.co/B3Sf1Xj/carbon-software-resource-cluster.png"
                         alt=""
                       />
-                      <p className="text-slate-200">
-                      Software Solutions
-                      </p>
+                      <p className="text-slate-200">Software Solutions</p>
                     </li>
                     <li className="flex gap-2 text-[16px] items-center">
                       <img
